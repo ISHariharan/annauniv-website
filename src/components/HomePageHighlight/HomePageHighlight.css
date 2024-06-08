@@ -1,0 +1,46 @@
+.HomePageHighlightContainer {
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ImageContainer img {
+    max-width: 100%;
+    height: auto;
+}
+
+.HomePageHighlightNews {
+    overflow: hidden; 
+    white-space: nowrap;
+    background-color: #000000;
+    position: relative;
+    color: white;
+    height: auto;
+    padding: 0; /* Remove any default padding */
+}
+
+.newsTicker {
+    display: flex;
+    gap: 5px;
+    animation: scroll-left 15s linear infinite;
+    font-size: 18px;
+    line-height: 25px; 
+    margin: 0; 
+    padding: 0; 
+}
+
+.newsTicker p {
+    margin: 0; 
+    padding: 0; 
+}
+
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%); 
+    }
+    100% {
+        transform: translateX(-100%); 
+    }
+}

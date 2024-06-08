@@ -1,0 +1,77 @@
+.HeaderContainer{
+    display : flex;
+    gap:20%;
+    margin-top:20px;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.UniversityImageContainer{
+    margin-left : 20px;
+    margin-top:20px;
+}
+
+.University-image{
+    height: 160px;
+    width : 160px;
+}
+
+.TN-symbol{
+    height : 183px;
+    width : 224px;
+    margin-top : 20px;
+    margin-right : 20px;
+}
+
+.HeaderContentContainer{
+    text-align: center;
+}
+
+.UniversityName{
+    font-size : 32px !important;
+}
+
+.NavBar{
+    display : flex;
+    gap : 20%;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+}
+
+.NavBarContainer{
+    display : flex;
+    gap : 15%;
+    justify-content: center;
+    margin-left : 10%;
+}
+
+.NavBarContainer div {
+    white-space: nowrap; 
+}
+
+.NavBarContentContainer{
+
+}
+
+.NavBarContent{
+    font-size : 18px;
+    font-weight : 500;   
+}
+
+.NavBarLinks{
+    text-decoration: none;
+    color: black;
+}
+
+.LoginButton{
+    background-color: transparent;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    border-radius: 50px;
+    font-weight : bolder;
+    font-size : 16px;
+}

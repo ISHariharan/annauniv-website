@@ -1,0 +1,59 @@
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+}
+
+.footer {
+    background-color: #4B3227;
+    display: flex;
+    flex-direction: column;
+}
+
+.CopyRights {
+    background-color: #332119;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.FooterContainer {
+    display: flex;
+    justify-content: space-evenly; 
+    padding: 30px 0; 
+    align-items: center; 
+}
+
+.ContactUs,
+.QuickLinks,
+.StudentCorner {
+    color: white;
+    text-align: center;
+    flex: 1; 
+}
+
+.ContactUs {
+    border-right: 3px solid white;
+    padding-right: 20px;
+}
+
+.QuickLinks {
+    border-right: 3px solid white;
+    padding-right: 20px;
+}
+
+.FooterContact,
+.FooterEmail {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.StudentCorner {
+    padding-right: 30px;
+}
