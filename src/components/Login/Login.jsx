@@ -1,5 +1,7 @@
 import React from "react";
 import axios from "axios";
+import { Cookies } from "react-cookie";
+var cookie = new Cookies();
 
 
 function Login(){
@@ -14,7 +16,10 @@ function Login(){
             params : {username, password}
         }).then((res => {
             if (res.data.success) {
-                window.location.href = "/home";
+                var fullname = res.data.firstname + " " + res.data.lastname;
+                cookie.set("username", fullname);
+                console.log(fullname);
+                window.location.href = "/userhome";
             }else{
                 alert("Invalid username or password");
             }

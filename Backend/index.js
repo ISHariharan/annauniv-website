@@ -132,7 +132,9 @@ app.get("/login", async (req, res) => {
         var password = req.query.password;
         var result = await UserDataCollection.findOne({ Email : username,Password :  password });
         if(result){
-            res.json({success : true});
+            console.log(result.Firstname);
+            console.log(result.Lastname);
+            res.json({success : true, firstname : result.Firstname, lastname : result.Lastname});
         }else{
             res.json({success : false});
         }

@@ -1,6 +1,8 @@
 import React from "react";
 import styles from "./Signup.css";
 import axios from "axios";
+import { Cookies } from "react-cookie";
+var cookie = new Cookies();
 
 function Signup(){
     const handleData = async () => {
