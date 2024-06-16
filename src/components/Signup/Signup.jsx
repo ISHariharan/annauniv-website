@@ -70,7 +70,7 @@ function Signup(){
                 <div><p>Education Status : </p></div>
                 <div>
                     <select name="education" id="education" >
-                        <option value="10th ">10th</option>
+                        <option value="10th">10th</option>
                         <option value="12th">12th</option>
                         <option value="Bachelor">Bachelor's degree </option>
                         <option value="Masters ">Master's degree </option>
