@@ -1,0 +1,5 @@
+.inputSignup{
+    display: flex !important;
+    gap  : 20px !important;
+    align-items: center;
+}

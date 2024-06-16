@@ -3,6 +3,10 @@ import "./Footer.css";
 import Email from "../../static/email.svg";
 import Contact from "../../static/contact.svg";
 
+//mongodb+srv://ishariharan2004:<password>@edu-data-db.wpivmo0.mongodb.net/?retryWrites=true&w=majority&appName=edu-data-db
+//BfUIbXYmfFGAZez2
+//ishariharan2004
+
 function Footer() {
     return (
         <div className="footer">
